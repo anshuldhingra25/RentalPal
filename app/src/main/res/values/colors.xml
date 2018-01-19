@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_button">#1bba5e</color>
+    <color name="bg">#717171</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#d64959</color>
+    <color name="light_grey">#466C91</color>
+    <color name="dark_grey">#3D4557</color>
+    <color name="edit_bg">#394461</color>
+    <color name="dark_blue">#1C253B</color>
+    <color name="colorFAB1">#2196F3</color>
+    <color name="colorFAB2">#E040FB</color>
+    <color name="hint_color">#8BA7BA</color>
+    <color name="time_bg">#ACACAC</color>
+    <color name="auto_bg">#222222</color>
+    <color name="blue">#3A95D2</color>
+</resources>

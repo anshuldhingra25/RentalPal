@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relative12"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="2.5dp"
+        android:background="@drawable/edittext"
+        android:scaleType="fitXY">
+
+        <ImageView
+            android:id="@+id/img12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/add_camera">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edit_comment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="2.5dp"
+        android:background="@drawable/edittext"
+        android:gravity="start"
+        android:hint="@string/comment"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:textColorHint="@color/hint_color"
+
+        android:textSize="15dp" />
+
+</LinearLayout>

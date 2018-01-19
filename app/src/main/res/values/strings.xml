@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">RentalPal</string>
+    <string name="string_pdf">PDF</string>
+    <string name="string_messanger">Messenger</string>
+    <string name="string_email">Email</string>
+    <string name="string_edit">Edit</string>
+    <string name="finish">Finished</string>
+    <string name="string_add">Add</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="string_menu_list">Menu list</string>
+    <string name="string_menu">Menu</string>
+    <string name="reports">Reports</string>
+    <string name="short_desc">Short Description</string>
+    <string name="save">Save</string>
+    <string name="pass">Pass</string>
+    <string name="next">Next</string>
+    <string name="comment">Comments</string>
+    <string name="permission_storage_rationale">Storage permission is needed to show the camera preview</string>
+    <string name="permision_available_storage">Storage Permission has been granted. Preview can now be opened.</string>
+    <string name="permissions_not_granted">Permissions were not granted.</string>
+    <string name="banner_home_footer">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="next_proceed"><![CDATA[Next >]]></string>
+    <string name="sharevia">SHARE VIA</string>
+    <string name="view_previous">View Previous Documents</string>
+    <string name="finished">Finished</string>
+    <string name="edit">Edit</string>
+    <string name="view_doc">View\nDocument</string>
+    <string name="string_share_other">Share Other</string>
+    <string name="back">Back</string>
+    <array name="carPositions">
+        <item>Front 1</item>
+        <item>Front 2</item>
+        <item>Add Front</item>
+        <item>Left View</item>
+        <item>Left View</item>
+        <item>Add left View</item>
+        <item>Right View</item>
+        <item>Right View</item>
+        <item>Add right View</item>
+    </array>
+    <integer-array name="random_imgs">
+        <item>@drawable/car_front</item>
+        <item>@drawable/car_front</item>
+        <item>@drawable/front_plus</item>
+        <item>@drawable/car_left</item>
+        <item>@drawable/car_left</item>
+        <item>@drawable/left_plus</item>
+        <item>@drawable/car_right</item>
+        <item>@drawable/car_right</item>
+        <item>@drawable/car_plus</item>
+    </integer-array>
+
+    <integer-array name="camera_images">
+        <item>@drawable/camra_green</item>
+        <item>@drawable/camra_green</item>
+        <item>@drawable/camra_green</item>
+        <item>@drawable/camra_grey</item>
+        <item>@drawable/camra_grey</item>
+        <item>@drawable/camra_grey</item>
+        <item>@drawable/camera_yellow</item>
+        <item>@drawable/camera_yellow</item>
+        <item>@drawable/camera_yellow</item>
+    </integer-array>
+
+
+    <array name="room_category">
+        <item>Garden</item>
+        <item>Garage</item>
+        <item>Lounge</item>
+        <item>Dinning Room</item>
+        <item>Extra Room +</item>
+        <item>Bedroom 1</item>
+        <item>Bedroom 2</item>
+        <item>Bedroom</item>
+        <item>Bathroom 1</item>
+        <item>Bathroom</item>
+    </array>
+    <integer-array name="room_imgs">
+        <item>@drawable/garage_icon</item>
+        <item>@drawable/garage_icon</item>
+        <item>@drawable/lounge_icon</item>
+        <item>@drawable/dining_room_icon</item>
+        <item>@drawable/extra_room_icon</item>
+        <item>@drawable/bedroom_icon</item>
+        <item>@drawable/bedroom_icon</item>
+        <item>@drawable/extra_room_icon</item>
+        <item>@drawable/bathroom_icon</item>
+        <item>@drawable/extra_room_icon</item>
+    </integer-array>
+
+    <integer-array name="camera_images_room">
+        <item>@drawable/camra_green</item>
+        <item>@drawable/camra_green</item>
+        <item>@drawable/camra_green</item>
+        <item>@drawable/camra_green</item>
+        <item>@drawable/camra_green</item>
+        <item>@drawable/camera_yellow</item>
+        <item>@drawable/camera_yellow</item>
+        <item>@drawable/camera_yellow</item>
+        <item>@drawable/camera_purple</item>
+        <item>@drawable/camera_purple</item>
+
+    </integer-array>
+
+
+</resources>

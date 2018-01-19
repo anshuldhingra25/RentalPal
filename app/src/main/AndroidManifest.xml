@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jasycdell3.rentalpal">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FormSubmission"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DemoList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SavingImages"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListCar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Share"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListRoom"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Demo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Finish"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".Dashboard"
+            android:screenOrientation="portrait">
+
+        </activity>
+    </application>
+
+</manifest>
